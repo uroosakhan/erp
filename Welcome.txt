@@ -1,0 +1,14 @@
+
+Your accounting fiscal year is ending on 30 June 2018, to ADD new fiscal year please follow the following instructions: </br></br>
+
+<b> How to Add new Fiscal Year? </b> </br>
+Goto  <a href=https://erp30.com/admin/fiscalyears.php?  target="_blank" > Setup->Company Setup->Fiscal Year </a> )
+ and add new fiscal year (Eg. 1 July 2018 -  30 June 2019) </br></br>
+
+<b> 2. How to upgrade to new fiscal year? </b> </br>
+Now goto <a href=https://erp30.com/admin/company_preferences.php?  target="_blank"> Setup->Company Setup>Company Setup  </a> ), change the fiscal year to '1 July 2018 -  30 June 2019' and update. </br></br>
+
+<b> 3. How to close previous Fiscal Year? </b> </br>
+To close previous fiscal year again Goto  </br>
+Settings->Company Setup->Fiscal Year click on edit button on previous fiscal year, set close and save. 
+

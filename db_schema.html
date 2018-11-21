@@ -1,0 +1,2971 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; font-size: 100%; background-color: white; color: black;margin-top: 0px;margin-left: 15px;margin-right: 15px;}
+table { width: 100%; border: 1px solid #8cacbb; border-collapse: collapse; }
+td { font-size: 80%; padding: 2px 5px 2px 5px; border: 1px solid #8cacbb;}
+th { background-color: #dee7ec; font-size: 85%; font-width: bold; text-align: left; padding: 2px 5px 2px 15px; border: 1px solid #8cacbb; }
+h2 { font-size: 110%; text-align: center; }
+h3 { font-size: 100%; }
+h4 { font-size: 90%; }
+ul { font-size: 90%; }
+.tbl { color: brown; }
+</style>
+
+<title>Database Schema Report</title><meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+
+<body>
+<h2>Database Schema Report for Hisaab ERP</h2><p></p><h3><b><a name="TOC">Table of Contents</a></b></h3><p></p><ul><li><a href="#Summary">Summary</a></li>
+<li><a href="#Tables">Tables</a></li>
+<ol><li><a href="#0_areas">0_areas</a></li>
+<li><a href="#0_attachments">0_attachments</a></li>
+<li><a href="#0_audit_trail">0_audit_trail</a></li>
+<li><a href="#0_bank_accounts">0_bank_accounts</a></li>
+<li><a href="#0_bank_trans">0_bank_trans</a></li>
+<li><a href="#0_bom">0_bom</a></li>
+<li><a href="#0_budget_trans">0_budget_trans</a></li>
+<li><a href="#0_chart_class">0_chart_class</a></li>
+<li><a href="#0_chart_master">0_chart_master</a></li>
+<li><a href="#0_chart_types">0_chart_types</a></li>
+<li><a href="#0_comments">0_comments</a></li>
+<li><a href="#0_credit_status">0_credit_status</a></li>
+<li><a href="#0_crm_categories">0_crm_categories</a></li>
+<li><a href="#0_crm_contacts">0_crm_contacts</a></li>
+<li><a href="#0_crm_persons">0_crm_persons</a></li>
+<li><a href="#0_currencies">0_currencies</a></li>
+<li><a href="#0_cust_allocations">0_cust_allocations</a></li>
+<li><a href="#0_cust_branch">0_cust_branch</a></li>
+<li><a href="#0_debtor_trans">0_debtor_trans</a></li>
+<li><a href="#0_debtor_trans_details">0_debtor_trans_details</a></li>
+<li><a href="#0_debtors_master">0_debtors_master</a></li>
+<li><a href="#0_dimensions">0_dimensions</a></li>
+<li><a href="#0_exchange_rates">0_exchange_rates</a></li>
+<li><a href="#0_fiscal_year">0_fiscal_year</a></li>
+<li><a href="#0_gl_trans">0_gl_trans</a></li>
+<li><a href="#0_grn_batch">0_grn_batch</a></li>
+<li><a href="#0_grn_items">0_grn_items</a></li>
+<li><a href="#0_groups">0_groups</a></li>
+<li><a href="#0_item_codes">0_item_codes</a></li>
+<li><a href="#0_item_tax_type_exemptions">0_item_tax_type_exemptions</a></li>
+<li><a href="#0_item_tax_types">0_item_tax_types</a></li>
+<li><a href="#0_item_units">0_item_units</a></li>
+<li><a href="#0_loc_stock">0_loc_stock</a></li>
+<li><a href="#0_locations">0_locations</a></li>
+<li><a href="#0_movement_types">0_movement_types</a></li>
+<li><a href="#0_payment_terms">0_payment_terms</a></li>
+<li><a href="#0_prices">0_prices</a></li>
+<li><a href="#0_print_profiles">0_print_profiles</a></li>
+<li><a href="#0_printers">0_printers</a></li>
+<li><a href="#0_purch_data">0_purch_data</a></li>
+<li><a href="#0_purch_order_details">0_purch_order_details</a></li>
+<li><a href="#0_purch_orders">0_purch_orders</a></li>
+<li><a href="#0_quick_entries">0_quick_entries</a></li>
+<li><a href="#0_quick_entry_lines">0_quick_entry_lines</a></li>
+<li><a href="#0_recurrent_invoices">0_recurrent_invoices</a></li>
+<li><a href="#0_refs">0_refs</a></li>
+<li><a href="#0_sales_order_details">0_sales_order_details</a></li>
+<li><a href="#0_sales_orders">0_sales_orders</a></li>
+<li><a href="#0_sales_pos">0_sales_pos</a></li>
+<li><a href="#0_sales_types">0_sales_types</a></li>
+<li><a href="#0_salesman">0_salesman</a></li>
+<li><a href="#0_security_roles">0_security_roles</a></li>
+<li><a href="#0_shippers">0_shippers</a></li>
+<li><a href="#0_sql_trail">0_sql_trail</a></li>
+<li><a href="#0_stock_category">0_stock_category</a></li>
+<li><a href="#0_stock_master">0_stock_master</a></li>
+<li><a href="#0_stock_moves">0_stock_moves</a></li>
+<li><a href="#0_supp_allocations">0_supp_allocations</a></li>
+<li><a href="#0_supp_invoice_items">0_supp_invoice_items</a></li>
+<li><a href="#0_supp_trans">0_supp_trans</a></li>
+<li><a href="#0_suppliers">0_suppliers</a></li>
+<li><a href="#0_sys_prefs">0_sys_prefs</a></li>
+<li><a href="#0_sys_types">0_sys_types</a></li>
+<li><a href="#0_tag_associations">0_tag_associations</a></li>
+<li><a href="#0_tags">0_tags</a></li>
+<li><a href="#0_tax_group_items">0_tax_group_items</a></li>
+<li><a href="#0_tax_groups">0_tax_groups</a></li>
+<li><a href="#0_tax_types">0_tax_types</a></li>
+<li><a href="#0_trans_tax_details">0_trans_tax_details</a></li>
+<li><a href="#0_useronline">0_useronline</a></li>
+<li><a href="#0_users">0_users</a></li>
+<li><a href="#0_voided">0_voided</a></li>
+<li><a href="#0_wo_issue_items">0_wo_issue_items</a></li>
+<li><a href="#0_wo_issues">0_wo_issues</a></li>
+<li><a href="#0_wo_manufacture">0_wo_manufacture</a></li>
+<li><a href="#0_wo_requirements">0_wo_requirements</a></li>
+<li><a href="#0_workcentres">0_workcentres</a></li>
+<li><a href="#0_workorders">0_workorders</a></li>
+
+</ol><li><a href="#Views">Views</a></li>
+<ol></ol><li><a href="#Procedures">Procedures</a></li>
+<li><a href="#DataTypes">Data Types</a></li>
+</ul><p></p><h3><b><a name="Summary">Summary</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Property</b></th><th><b>Value</b></th></tr>
+<tr>
+<td>Report created</td><td>21-Sep-2010 09:54</td></tr>
+<tr>
+<td>DBMS and version</td><td>MySQL  [ 5.0.51b-community-nt ]</td></tr>
+<tr>
+<td>Server</td><td>localhost via TCP/IP</td></tr>
+<tr>
+<td>Database name</td><td>account24</td></tr>
+<tr>
+<td>User/Login</td><td>root</td></tr>
+<tr>
+<td>Driver and version</td><td>myodbc5.dll  [ 05.01.0006 ]</td></tr>
+<tr>
+<td>DTM Schema Reporter</td><td>Version  1.20.00, (C) 2003-2009 DTM soft.</td></tr>
+</tbody></table>
+</p><h3><b><a name="Tables">Tables, 79 items</a></b></h3><p></p><h3><b><a name="0_areas">Table: '`0_areas`', 3 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>area_code</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_areas`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>a</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_areas`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>area_code</td></tr>
+<tr>
+<td>description</td><td>No</td><td>Yes</td><td>description</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_attachments">Table: '`0_attachments`', 9 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer unsigned</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type_no</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_no</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>unique_name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tran_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>filename</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>filesize</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>filetype</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_attachments`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_attachments`', 3 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>type_no</td><td>No</td><td>No</td><td>type_no, trans_no</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_audit_trail">Table: '`0_audit_trail`', 9 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type</td><td>smallint unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_no</td><td>integer unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>user</td><td>smallint unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>stamp</td><td>timestamp</td><td></td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>varchar(60)</td><td>NULL</td><td></td><td>&nbsp;</td></tr>
+<tr>
+<td>fiscal_year</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>gl_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>gl_seq</td><td>integer unsigned</td><td>NULL</td><td></td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_audit_trail`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_audit_trail`', 6 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>Seq</td><td>No</td><td>No</td><td>fiscal_year, gl_date, gl_seq</td></tr>
+<tr>
+<td>Type_and_Number</td><td>No</td><td>No</td><td>type, trans_no</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_bank_accounts">Table: '`0_bank_accounts`', 12 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>account_code</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>account_type</td><td>smallint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>bank_account_name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>bank_account_number</td><td>varchar(100)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>bank_name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>bank_address</td><td>tinytext</td><td></td><td></td><td>&nbsp;</td></tr>
+<tr>
+<td>bank_curr_code</td><td>char(3)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dflt_curr_act</td><td>tinyint.</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>id</td><td>smallint</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>last_reconciled_date</td><td>timestamp</td><td>&nbsp;</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ending_reconcile_balance</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_bank_accounts`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_bank_accounts`', 4 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>bank_account_name</td><td>No</td><td>No</td><td>bank_account_name</td></tr>
+<tr>
+<td>bank_account_number</td><td>No</td><td>No</td><td>bank_account_number</td></tr>
+<tr>
+<td>account_code</td><td>No</td><td>No</td><td>account_code</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_bank_trans">Table: '`0_bank_trans`', 12 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type</td><td>smallint</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_no</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>bank_act</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ref</td><td>varchar(40)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>amount</td><td>double</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension2_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>person_type_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>person_id</td><td>blob</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>reconciled</td><td>date</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_bank_trans`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_bank_trans`', 9 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>bank_act</td><td>No</td><td>No</td><td>bank_act, ref</td></tr>
+<tr>
+<td>type</td><td>No</td><td>No</td><td>type, trans_no</td></tr>
+<tr>
+<td>bank_act_2</td><td>No</td><td>No</td><td>bank_act, reconciled</td></tr>
+<tr>
+<td>bank_act_3</td><td>No</td><td>No</td><td>bank_act, trans_date</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_bom">Table: '`0_bom`', 6 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>parent</td><td>char(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>component</td><td>char(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>workcentre_added</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>loc_code</td><td>char(5)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>quantity</td><td>double</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_bom`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Names</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>parent, component, workcentre_added, loc_code</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_bom`', 10 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>parent</td></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>component</td></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>workcentre_added</td></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>loc_code</td></tr>
+<tr>
+<td>component</td><td>No</td><td>No</td><td>component</td></tr>
+<tr>
+<td>id</td><td>No</td><td>No</td><td>id</td></tr>
+<tr>
+<td>loc_code</td><td>No</td><td>No</td><td>loc_code</td></tr>
+<tr>
+<td>parent</td><td>No</td><td>No</td><td>parent, loc_code</td></tr>
+<tr>
+<td>Parent_2</td><td>No</td><td>No</td><td>parent</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_budget_trans">Table: '`0_budget_trans`', 11 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>counter</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type</td><td>smallint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type_no</td><td>bigint</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tran_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>account</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>memo_</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>amount</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension_id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension2_id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>person_type_id</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>person_id</td><td>blob</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_budget_trans`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>counter</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_budget_trans`', 7 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>counter</td></tr>
+<tr>
+<td>Type_and_Number</td><td>No</td><td>No</td><td>type, type_no</td></tr>
+<tr>
+<td>Account</td><td>No</td><td>No</td><td>account, tran_date, dimension_id, dimension2_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_chart_class">Table: '`0_chart_class`', 4 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>cid</td><td>varchar(3)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>class_name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ctype</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_chart_class`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>cid</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_chart_class`', 1 item</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>cid</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_chart_master">Table: '`0_chart_master`', 5 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>account_code</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>account_code2</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>account_name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>account_type</td><td>varchar(10)</td><td>'0'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_chart_master`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>account_code</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_chart_master`', 4 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>account_code</td></tr>
+<tr>
+<td>account_name</td><td>No</td><td>No</td><td>account_name</td></tr>
+<tr>
+<td>accounts_by_type</td><td>No</td><td>No</td><td>account_type, account_code</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_chart_types">Table: '`0_chart_types`', 5 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>varchar(10)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>class_id</td><td>varchar(3)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>parent</td><td>varchar(10)</td><td>'-1'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_chart_types`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_chart_types`', 3 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>name</td><td>No</td><td>No</td><td>name</td></tr>
+<tr>
+<td>class_id</td><td>No</td><td>No</td><td>class_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_comments">Table: '`0_comments`', 4 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>type</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>date_</td><td>date</td><td>'0000-00-00'</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>memo_</td><td>text</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_comments`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>type_and_id</td><td>No</td><td>No</td><td>type, id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_credit_status">Table: '`0_credit_status`', 4 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>reason_description</td><td>char(100)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dissallow_invoices</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_credit_status`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_credit_status`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>reason_description</td><td>No</td><td>Yes</td><td>reason_description</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_crm_categories">Table: '`0_crm_categories`', 7 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>pure technical key</td></tr>
+<tr>
+<td>type</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>contact type e.g. customer</td></tr>
+<tr>
+<td>action</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>detailed usage e.g. department</td></tr>
+<tr>
+<td>name</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>for category selector</td></tr>
+<tr>
+<td>description</td><td>tinytext</td><td>''</td><td>NOT NULL</td><td>usage description</td></tr>
+<tr>
+<td>system</td><td>tinyint(1)</td><td>0</td><td>NOT NULL</td><td>nonzero for core system usage</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_crm_categories`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_crm_categories`', 5 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>type</td><td>No</td><td>Yes</td><td>type, action</td></tr>
+<tr>
+<td>type_2</td><td>No</td><td>Yes</td><td>type, name</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_crm_contacts">Table: '`0_crm_contacts`', 5 fields, InnoDB free: 8192 kB</a></b></h3><p>NULL<table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>person_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>foreign key to crm_contacts</td></tr>
+<tr>
+<td>type</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>foreign key to crm_categories</td></tr>
+<tr>
+<td>action</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>foreign key to crm_categories</td></tr>
+<tr>
+<td>entity_id</td><td>varchar(11)</td><td>''</td><td></td><td>entity id in related class table</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_crm_contacts`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_crm_contacts`', 3 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>type</td><td>No</td><td>No</td><td>type, action</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_crm_persons">Table: '`0_crm_persons`', 12 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ref</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>name2</td><td>varchar(60)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>address</td><td>text</td><td>&nbsp;</td><td></td><td>&nbsp;</td></tr>
+<tr>
+<td>phone</td><td>varchar(30)</td><td>NULL</td><td></td><td>&nbsp;</td></tr>
+<tr>
+<td>phone2</td><td>varchar(30)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>fax</td><td>varchar(30)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>email</td><td>varchar(100)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>lang</td><td>char(5)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>notes</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_crm_persons`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_crm_persons`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>ref</td><td>No</td><td>No</td><td>ref</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_currencies">Table: '`0_currencies`', 7 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>currency</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>curr_abrev</td><td>char(3)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>curr_symbol</td><td>varchar(10)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>country</td><td>varchar(100)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>hundreds_name</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>auto_update</td><td>tinyint</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_currencies`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>curr_abrev</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_currencies`', 1 item</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>curr_abrev</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_cust_allocations">Table: '`0_cust_allocations`', 7 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>amt</td><td>double unsigned</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>date_alloc</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_no_from</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_type_from</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_no_to</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_type_to</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_cust_allocations`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_cust_allocations`', 5 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>From</td><td>No</td><td>No</td><td>trans_type_from</td></tr>
+<tr>
+<td>From</td><td>No</td><td>No</td><td>trans_no_from</td></tr>
+<tr>
+<td>To</td><td>No</td><td>No</td><td>trans_type_to</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_cust_branch">Table: '`0_cust_branch`', 20 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>branch_code</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>debtor_no</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>br_name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>branch_ref</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>br_address</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>area</td><td>integer</td><td></td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>salesman</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>contact_name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>default_location</td><td>varchar(5)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tax_group_id</td><td>integer</td><td></td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>sales_account</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>sales_discount_account</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>receivables_account</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>payment_discount_account</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>default_ship_via</td><td>integer</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>disable_trans</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>br_post_address</td><td>text</td><td></td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>group_no</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>notes</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_cust_branch`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Names</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>branch_code, debtor_no</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_cust_branch`', 5 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>branch_code</td></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>debtor_no</td></tr>
+<tr>
+<td>branch_code</td><td>No</td><td>No</td><td>branch_code</td></tr>
+<tr>
+<td>branch_ref</td><td>No</td><td>No</td><td>branch_ref</td></tr>
+<tr>
+<td>group_no</td><td>No</td><td>No</td><td>group_no</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_debtor_trans">Table: '`0_debtor_trans`', 21 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>trans_no</td><td>integer unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type</td><td>smallint unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>version</td><td>tinyint unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>debtor_no</td><td>integer unsigned</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>branch_code</td><td>integer</td><td>-1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tran_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>due_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>due_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>reference</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tpe</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>order_</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ov_amount</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ov_gst</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ov_freight</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ov_freight_tax</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ov_discount</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>alloc</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>rate</td><td>double</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ship_via</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension2_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>payment_terms</td><td>integer</td><td></td><td>NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_debtor_trans`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Names</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>type, trans_no</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_debtor_trans`', 5 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>type</td></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>trans_no</td></tr>
+<tr>
+<td>debtor_no</td><td>No</td><td>No</td><td>debtor_no, branch_code</td></tr>
+<tr>
+<td>tran_date</td><td>No</td><td>No</td><td>tran_date</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_debtor_trans_details">Table: '`0_debtor_trans_details`', 12 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>debtor_trans_no</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>debtor_trans_type</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>stock_id</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>text</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>unit_price</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>unit_tax</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>quantity</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>discount_percent</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>standard_cost</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>qty_done</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>src_id</td><td>integer</td><td></td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_debtor_trans_details`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_debtor_trans_details`', 4 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>Transaction</td><td>No</td><td>No</td><td>debtor_trans_type</td></tr>
+<tr>
+<td>Transaction</td><td>No</td><td>No</td><td>debtor_trans_no</td></tr>
+<tr>
+<td>src_id</td><td>No</td><td>No</td><td>src_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_debtors_master">Table: '`0_debtors_master`', 16 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>debtor_no</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>name</td><td>varchar(100)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>debtor_ref</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>address</td><td>text</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tax_id</td><td>varchar(55)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>curr_code</td><td>char(3)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>sales_type</td><td>integer</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension2_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>credit_status</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>payment_terms</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>discount</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>pymt_discount</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>credit_limit</td><td>float</td><td>1000</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>notes</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_debtors_master`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>d</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_debtors_master`', 3 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>debtor_no</td></tr>
+<tr>
+<td>name</td><td>No</td><td>Yes</td><td>name</td></tr>
+<tr>
+<td>debtor_ref</td><td>No</td><td>No</td><td>debtor_ref</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_dimensions">Table: '`0_dimensions`', 7 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>reference</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type_</td><td>tinyint</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>closed</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>date_</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>due_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_dimensions`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_dimensions`', 5 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>reference</td><td>No</td><td>Yes</td><td>reference</td></tr>
+<tr>
+<td>date_</td><td>No</td><td>No</td><td>date_</td></tr>
+<tr>
+<td>due_date</td><td>No</td><td>No</td><td>due_date</td></tr>
+<tr>
+<td>type_</td><td>No</td><td>No</td><td>type_</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_exchange_rates">Table: '`0_exchange_rates`', 5 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>curr_code</td><td>char(3)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>rate_buy</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>rate_sell</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>date_</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_exchange_rates`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_exchange_rates`', 3 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>curr_code</td><td>No</td><td>Yes</td><td>curr_code, date_</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_fiscal_year">Table: '`0_fiscal_year`', 4 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>begin</td><td>date</td><td>'0000-00-00'</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>end</td><td>date</td><td>'0000-00-00'</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>closed</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_fiscal_year`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_fiscal_year`', 3 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>begin</td><td>No</td><td>Yes</td><td>begin</td></tr>
+<tr>
+<td>end</td><td>No</td><td>Yes</td><td>end</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_gl_trans">Table: '`0_gl_trans`', 11 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>counter</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type</td><td>smallint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type_no</td><td>bigint</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tran_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>account</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>memo_</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>amount</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension2_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>person_type_id</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>person_id</td><td>blob</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_gl_trans`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>counter</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_gl_trans`', 8 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>counter</td></tr>
+<tr>
+<td>Type_and_Number</td><td>No</td><td>No</td><td>type, type_no</td></tr>
+<tr>
+<td>dimension_id</td><td>No</td><td>No</td><td>dimension_id</td></tr>
+<tr>
+<td>dimension2_id</td><td>No</td><td>No</td><td>dimension2_id</td></tr>
+<tr>
+<td>tran_date</td><td>No</td><td>No</td><td>tran_date</td></tr>
+<tr>
+<td>account_and_tran_date</td><td>No</td><td>No</td><td>account, tran_date</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_grn_batch">Table: '`0_grn_batch`', 6 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>supplier_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>purch_order_no</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>reference</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>delivery_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>loc_code</td><td>varchar(5)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_grn_batch`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_grn_batch`', 3 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>delivery_date</td><td>No</td><td>No</td><td>delivery_date</td></tr>
+<tr>
+<td>purch_order_no</td><td>No</td><td>No</td><td>purch_order_no</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_grn_items">Table: '`0_grn_items`', 7 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>grn_batch_id</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>po_detail_item</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>item_code</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>text</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>qty_recd</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>quantity_inv</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_grn_items`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_grn_items`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>grn_batch_id</td><td>No</td><td>No</td><td>grn_batch_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_groups">Table: '`0_groups`', 3 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>smallint unsigned</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_groups`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_groups`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>description</td><td>No</td><td>Yes</td><td>description</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_item_codes">Table: '`0_item_codes`', 8 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer unsigned</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>item_code</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>stock_id</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>varchar(200)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>category_id</td><td>smallint unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>quantity</td><td>double</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>is_foreign</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>is_foreign</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_item_codes`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_item_codes`', 4 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>stock_id</td><td>No</td><td>Yes</td><td>stock_id, item_code</td></tr>
+<tr>
+<td>item_code</td><td>No</td><td>No</td><td>item_code</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_item_tax_type_exemptions">Table: '`0_item_tax_type_exemptions`', 2 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>item_tax_type_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tax_type_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_item_tax_type_exemptions`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Names</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>item_tax_type_id, tax_type_id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_item_tax_type_exemptions`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>item_tax_type_id</td></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>tax_type_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_item_tax_types">Table: '`0_item_tax_types`', 4 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>exempt</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_item_tax_types`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_item_tax_types`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>name</td><td>No</td><td>Yes</td><td>name</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_item_units">Table: '`0_item_units`', 4 fields, units of measure</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>abbr</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>name</td><td>varchar(40)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>decimals</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_item_units`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>a</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_item_units`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>abbr</td></tr>
+<tr>
+<td>name</td><td>No</td><td>Yes</td><td>name</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_loc_stock">Table: '`0_loc_stock`', 3 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>loc_code</td><td>char(5)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>stock_id</td><td>char(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>reorder_level</td><td>bigint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_loc_stock`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Names</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>loc_code, stock_id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_loc_stock`', 3 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>loc_code</td></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>stock_id</td></tr>
+<tr>
+<td>stock_id</td><td>No</td><td>No</td><td>stock_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_locations">Table: '`0_locations`', 9 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>loc_code</td><td>varchar(5)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>location_name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>delivery_address</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>phone</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>phone2</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>fax</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>email</td><td>varchar(100)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>contact</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_locations`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>loc_code</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_locations`', 1 item</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>loc_code</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_movement_types">Table: '`0_movement_types`', 3 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_movement_types`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_movement_types`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>name</td><td>No</td><td>Yes</td><td>name</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_payment_terms">Table: '`0_payment_terms`', 5 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>terms_indicator</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>terms</td><td>char(80)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>days_before_due</td><td>smallint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>day_in_following_month</td><td>smallint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_payment_terms`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>t</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_payment_terms`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>terms_indicator</td></tr>
+<tr>
+<td>terms</td><td>No</td><td>Yes</td><td>terms</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_prices">Table: '`0_prices`', 5 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>stock_id</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>sales_type_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>curr_abrev</td><td>char(3)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>price</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_prices`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_prices`', 4 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>price</td><td>No</td><td>Yes</td><td>stock_id, sales_type_id, curr_abrev</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_print_profiles">Table: '`0_print_profiles`', 4 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>smallint unsigned</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>profile</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>report</td><td>varchar(5)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>printer</td><td>tinyint unsigned</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_print_profiles`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_print_profiles`', 3 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>profile</td><td>No</td><td>Yes</td><td>profile, report</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_printers">Table: '`0_printers`', 7 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>tinyint unsigned</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>name</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>queue</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>host</td><td>varchar(40)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>port</td><td>smallint unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>timeout</td><td>tinyint unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_printers`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_printers`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>name</td><td>No</td><td>Yes</td><td>name</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_purch_data">Table: '`0_purch_data`', 6 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>supplier_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>stock_id</td><td>char(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>price</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>suppliers_uom</td><td>char(50)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>conversion_factor</td><td>double</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>supplier_description</td><td>char(50)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_purch_data`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Names</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>supplier_id, stock_id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_purch_data`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>supplier_id</td></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>stock_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_purch_order_details">Table: '`0_purch_order_details`', 11 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>po_detail_item</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>order_no</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>item_code</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>text</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>delivery_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>qty_invoiced</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>unit_price</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>act_price</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>std_cost_unit</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>quantity_ordered</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>quantity_received</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_purch_order_details`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>po_detail_item</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_purch_order_details`', 3 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>po_detail_item</td></tr>
+<tr>
+<td>order</td><td>No</td><td>No</td><td>order_no</td></tr>
+<tr>
+<td>order</td><td>No</td><td>No</td><td>po_detail_item</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_purch_orders">Table: '`0_purch_orders`', 10 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>order_no</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>supplier_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>comments</td><td>text</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ord_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>reference</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>requisition_no</td><td>text</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>into_stock_location</td><td>varchar(5)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>delivery_address</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>total</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tax_included</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_purch_orders`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>order_no</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_purch_orders`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>order_no</td></tr>
+<tr>
+<td>ord_date</td><td>No</td><td>No</td><td>ord_date</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_quick_entries">Table: '`0_quick_entries`', 6 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>smallint unsigned</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>base_amount</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>base_desc</td><td>varchar(60)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>bal_type</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_quick_entries`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_quick_entries`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>description</td><td>No</td><td>No</td><td>description</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_quick_entry_lines">Table: '`0_quick_entry_lines`', 7 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>smallint unsigned</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>qid</td><td>smallint unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>amount</td><td>double</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>action</td><td>varchar(2)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dest_id</td><td>varchar(11)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension_id</td><td>smallint unsigned</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension2_id</td><td>smallint unsigned</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_quick_entry_lines`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_quick_entry_lines`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>qid</td><td>No</td><td>No</td><td>qid</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_recurrent_invoices">Table: '`0_recurrent_invoices`', 10 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>smallint unsigned</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>order_no</td><td>integer unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>debtor_no</td><td>integer unsigned</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>group_no</td><td>smallint unsigned</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>days</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>monthly</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>begin</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>end</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>last_sent</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_recurrent_invoices`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_recurrent_invoices`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>description</td><td>No</td><td>Yes</td><td>description</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_refs">Table: '`0_refs`', 3 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>reference</td><td>varchar(100)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_refs`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Names</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id, type</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_refs`', 4 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>type</td></tr>
+<tr>
+<td>Type_and_Reference</td><td>No</td><td>No</td><td>type, reference</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_sales_order_details">Table: '`0_sales_order_details`', 9 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>order_no</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_type</td><td>smallint</td><td>30</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>stk_code</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>text</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>qty_sent</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>unit_price</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>quantity</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>discount_percent</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_sales_order_details`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_sales_order_details`', 3 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>sorder</td><td>No</td><td>No</td><td>trans_type, order_no</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_sales_orders">Table: '`0_sales_orders`', 21 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>order_no</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_type</td><td>smallint</td><td>30</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>version</td><td>tinyint unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>debtor_no</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>branch_code</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>reference</td><td>varchar(100)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>customer_ref</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>comments</td><td>text</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ord_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>order_type</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ship_via</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>delivery_address</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>contact_phone</td><td>varchar(30)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>contact_email</td><td>varchar(100)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>deliver_to</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>freight_cost</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>from_stk_loc</td><td>varchar(5)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>delivery_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>payment_terms</td><td>integer</td><td></td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>total</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_sales_orders`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Names</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>trans_type, order_no</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_sales_orders`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>trans_type</td></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>order_no</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_sales_pos">Table: '`0_sales_pos`', 7 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>smallint unsigned</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>pos_name</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>cash_sale</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>credit_sale</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>pos_location</td><td>varchar(5)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>pos_account</td><td>smallint unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_sales_pos`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_sales_pos`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>pos_name</td><td>No</td><td>Yes</td><td>pos_name</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_sales_types">Table: '`0_sales_types`', 5 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>sales_type</td><td>char(50)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tax_included</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>factor</td><td>double</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_sales_types`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_sales_types`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>sales_type</td><td>No</td><td>Yes</td><td>sales_type</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_salesman">Table: '`0_salesman`', 9 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>salesman_code</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>salesman_name</td><td>char(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>salesman_phone</td><td>char(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>salesman_fax</td><td>char(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>salesman_email</td><td>varchar(100)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>provision</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>break_pt</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>provision2</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_salesman`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>s</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_salesman`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>salesman_code</td></tr>
+<tr>
+<td>salesman_name</td><td>No</td><td>Yes</td><td>salesman_name</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_security_roles">Table: '`0_security_roles`', 6 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>role</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>varchar(50)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>sections</td><td>text</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>areas</td><td>text</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_security_roles`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_security_roles`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>role</td><td>No</td><td>Yes</td><td>role</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_shippers">Table: '`0_shippers`', 7 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>shipper_id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>shipper_name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>phone</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>phone2</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>contact</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>address</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_shippers`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>s</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_shippers`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>shipper_id</td></tr>
+<tr>
+<td>name</td><td>No</td><td>Yes</td><td>shipper_name</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_sql_trail">Table: '`0_sql_trail`', 4 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer unsigned</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>sql</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>result</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>msg</td><td>varchar(255)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_sql_trail`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_sql_trail`', 1 item</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_stock_category">Table: '`0_stock_category`', 14 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>category_id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dflt_tax_type</td><td>integer</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dflt_units</td><td>varchar(20)</td><td>'each'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dflt_mb_flag</td><td>char(1)</td><td>'B'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dflt_sales_act</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dflt_cogs_act</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dflt_inventory_act</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dflt_adjustment_act</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dflt_assembly_act</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dflt_dim1</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dflt_dim2</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dflt_no_sale</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_stock_category`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>c</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_stock_category`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>category_id</td></tr>
+<tr>
+<td>description</td><td>No</td><td>Yes</td><td>description</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_stock_master">Table: '`0_stock_master`', 22 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>stock_id</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>category_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tax_type_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>varchar(200)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>long_description</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>units</td><td>varchar(20)</td><td>'each'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>mb_flag</td><td>char(1)</td><td>'B'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>sales_account</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>cogs_account</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inventory_account</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>adjustment_account</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>assembly_account</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension_id</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension2_id</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>actual_cost</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>last_cost</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>material_cost</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>labour_cost</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>overhead_cost</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>no_sale</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>editable</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_stock_master`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>stock_id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_stock_master`', 1 item</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>stock_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_stock_moves">Table: '`0_stock_moves`', 13 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>trans_id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_no</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>stock_id</td><td>char(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type</td><td>smallint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>loc_code</td><td>char(5)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tran_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>person_id</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>price</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>reference</td><td>char(40)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>qty</td><td>double</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>discount_percent</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>standard_cost</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>visible</td><td>tinyint</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_stock_moves`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>trans_id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_stock_moves`', 6 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>trans_id</td></tr>
+<tr>
+<td>type</td><td>No</td><td>No</td><td>type, trans_no</td></tr>
+<tr>
+<td>Move</td><td>No</td><td>No</td><td>stock_id, loc_code, tran_date</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_supp_allocations">Table: '`0_supp_allocations`', 7 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>amt</td><td>double unsigned</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>date_alloc</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_no_from</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_type_from</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_no_to</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_type_to</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_supp_allocations`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_supp_allocations`', 5 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>From</td><td>No</td><td>No</td><td>trans_type_from</td></tr>
+<tr>
+<td>From</td><td>No</td><td>No</td><td>trans_no_from</td></tr>
+<tr>
+<td>To</td><td>No</td><td>No</td><td>trans_type_to</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_supp_invoice_items">Table: '`0_supp_invoice_items`', 12 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>supp_trans_no</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>supp_trans_type</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>gl_code</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>grn_item_id</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>po_detail_item_id</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>stock_id</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>text</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>quantity</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>unit_price</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>unit_tax</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>memo_</td><td>text</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_supp_invoice_items`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_supp_invoice_items`', 4 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>Transaction</td><td>No</td><td>No</td><td>supp_trans_type</td></tr>
+<tr>
+<td>Transaction</td><td>No</td><td>No</td><td>supp_trans_no</td></tr>
+<tr>
+<td>Transaction</td><td>No</td><td>No</td><td>stock_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_supp_trans">Table: '`0_supp_trans`', 13 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>trans_no</td><td>integer unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type</td><td>smallint unsigned</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>supplier_id</td><td>integer unsigned</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>reference</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>supp_reference</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tran_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>due_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ov_amount</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ov_discount</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ov_gst</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>rate</td><td>double</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>alloc</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tax_included</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_supp_trans`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Names</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>type, trans_no</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_supp_trans`', 7 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>type</td></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>trans_no</td></tr>
+<tr>
+<td>supplier_id</td><td>No</td><td>No</td><td>supplier_id</td></tr>
+<tr>
+<td>SupplierID_2</td><td>No</td><td>No</td><td>supplier_id, supp_reference</td></tr>
+<tr>
+<td>type</td><td>No</td><td>No</td><td>type</td></tr>
+<tr>
+<td>tran_date</td><td>No</td><td>No</td><td>tran_date</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_suppliers">Table: '`0_suppliers`', 22 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>supplier_id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>supp_name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>supp_ref</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>address</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>supp_address</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>gst_no</td><td>varchar(25)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>contact</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>supp_account_no</td><td>varchar(40)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>website</td><td>varchar(100)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>bank_account</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>curr_code</td><td>char(3)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>payment_terms</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tax_included</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension_id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dimension2_id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tax_group_id</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>credit_limit</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>purchase_account</td><td>varchar(15)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>payable_account</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>payment_discount_account</td><td>varchar(15)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>notes</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_suppliers`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>supplier_id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_suppliers`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>supplier_id</td></tr>
+<tr>
+<td>supp_ref</td><td>No</td><td>No</td><td>supp_ref</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_sys_prefs">Table: '`0_sys_prefs`', 5 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>name</td><td>varchar(35)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>category</td><td>varchar(30)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>length</td><td>smallint</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>value</td><td>text</td><td>&nbsp;</td><td></td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_sys_prefs`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>name</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_sys_prefs`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>name</td></tr>
+<tr>
+<td>category</td><td>No</td><td>No</td><td>category</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_sys_types">Table: '`0_sys_types`', 3 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>type_id</td><td>smallint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type_no</td><td>integer</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>next_reference</td><td>varchar(100)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_sys_types`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>type_id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_sys_types`', 1 item</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>type_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_tag_associations">Table: '`0_tag_associations`', 2 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>record_id</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tag_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_tag_associations`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Names</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>record_id, tag_id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_tag_associations`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>record_id</td><td>No</td><td>Yes</td><td>record_id, tag_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_tags">Table: '`0_tags`', 5 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type</td><td>smallint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>name</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>varchar(60)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_tags`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_tags`', 3 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>type</td><td>No</td><td>Yes</td><td>type, name</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_tax_group_items">Table: '`0_tax_group_items`', 3 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>tax_group_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tax_type_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>rate</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_tax_group_items`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Names</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>tax_group_id, tax_type_id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_tax_group_items`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>tax_group_id</td></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>tax_type_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_tax_groups">Table: '`0_tax_groups`', 4 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tax_shipping</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_tax_groups`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_tax_groups`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>name</td><td>No</td><td>Yes</td><td>name</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_tax_types">Table: '`0_tax_types`', 6 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>rate</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>sales_gl_code</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>purchasing_gl_code</td><td>varchar(15)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>name</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_tax_types`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_tax_types`', 1 item</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_trans_tax_details">Table: '`0_trans_tax_details`', 11 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_type</td><td>smallint</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>trans_no</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tran_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tax_type_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>rate</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ex_rate</td><td>double</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>included_in_price</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>net_amount</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>amount</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>memo</td><td>text</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_trans_tax_details`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_trans_tax_details`', 4 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>Type_and_Number</td><td>No</td><td>No</td><td>trans_type, trans_no</td></tr>
+<tr>
+<td>tran_date</td><td>No</td><td>No</td><td>tran_date</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_useronline">Table: '`0_useronline`', 4 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>timestamp</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>ip</td><td>varchar(40)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>file</td><td>varchar(100)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_useronline`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_useronline`', 3 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>timestamp</td><td>No</td><td>No</td><td>timestamp</td></tr>
+<tr>
+<td>ip</td><td>No</td><td>No</td><td>ip</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_users">Table: '`0_users`', 30 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>smallint</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>user_id</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>password</td><td>varchar(100)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>real_name</td><td>varchar(100)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>role_id</td><td>integer</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>phone</td><td>varchar(30)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>email</td><td>varchar(100)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>language</td><td>varchar(20)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>date_format</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>date_sep</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>tho_sep</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>dec_sep</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>theme</td><td>varchar(20)</td><td>'default'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>page_size</td><td>varchar(20)</td><td>'A4'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>prices_dec</td><td>smallint</td><td>2</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>qty_dec</td><td>smallint</td><td>2</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>rates_dec</td><td>smallint</td><td>4</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>percent_dec</td><td>smallint</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>show_gl</td><td>tinyint</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>show_codes</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>show_hints</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>last_visit_date</td><td>datetime</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>query_size</td><td>tinyint</td><td>10</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>graphic_links</td><td>tinyint</td><td>1</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>pos</td><td>smallint</td><td>1</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>print_profile</td><td>varchar(30)</td><td>'1'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>rep_popup</td><td>tinyint</td><td>1</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>sticky_doc_date</td><td>tinyint</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>startup_tab</td><td>varchar(20)</td><td>'orders'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_users`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_users`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>user_id</td><td>No</td><td>Yes</td><td>user_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_voided">Table: '`0_voided`', 4 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>type</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>date_</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>memo_</td><td>text</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_voided`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Names</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>type, id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_voided`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>id</td><td>No</td><td>Yes</td><td>type, id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_wo_issue_items">Table: '`0_wo_issue_items`', 4 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>stock_id</td><td>varchar(40)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>issue_id</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>qty_issued</td><td>double</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_wo_issue_items`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_wo_issue_items`', 1 item</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_wo_issues">Table: '`0_wo_issues`', 6 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>issue_no</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>workorder_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>reference</td><td>varchar(100)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>issue_date</td><td>date</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>loc_code</td><td>varchar(5)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>workcentre_id</td><td>integer</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_wo_issues`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>issue_no</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_wo_issues`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>issue_no</td></tr>
+<tr>
+<td>workorder_id</td><td>No</td><td>No</td><td>workorder_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_wo_manufacture">Table: '`0_wo_manufacture`', 5 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>reference</td><td>varchar(100)</td><td>&nbsp;</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>workorder_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>quantity</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>date_</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_wo_manufacture`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_wo_manufacture`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>workorder_id</td><td>No</td><td>No</td><td>workorder_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_wo_requirements">Table: '`0_wo_requirements`', 8 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>workorder_id</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>stock_id</td><td>char(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>workcentre</td><td>integer</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>units_req</td><td>double</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>std_cost</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>loc_code</td><td>char(5)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>units_issued</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_wo_requirements`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>id</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_wo_requirements`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>workorder_id</td><td>No</td><td>No</td><td>workorder_id</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_workcentres">Table: '`0_workcentres`', 4 fields</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>name</td><td>char(40)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>description</td><td>char(50)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>inactive</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_workcentres`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_workcentres`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>name</td><td>No</td><td>Yes</td><td>name</td></tr>
+</tbody></table>
+</p><h3><b><a name="0_workorders">Table: '`0_workorders`', 13 fields, InnoDB free: 8192 kB</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Field Name</b></th><th><b>Type and Size</b></th><th><b>Default</b></th><th><b>Nullable</b></th><th><b>Description</b></th></tr>
+<tr>
+<td>id</td><td>integer</td><td>0</td><td>NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>wo_ref</td><td>varchar(60)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>loc_code</td><td>varchar(5)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>units_reqd</td><td>double</td><td>1</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>stock_id</td><td>varchar(20)</td><td>''</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>date_</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>type</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>required_by</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>released_date</td><td>date</td><td>'0000-00-00'</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>units_issued</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>closed</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>released</td><td>tinyint</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+<tr>
+<td>additional_costs</td><td>double</td><td>0</td><td>NOT NULL</td><td>&nbsp;</td></tr>
+</tbody></table>
+</p><h4><b>Primary key for table '`0_workorders`'</b></h4><p><table>
+<tbody><tr>
+<th><b>Primary Key Name</b></th><th><b>Field Name</b></th></tr>
+<tr>
+<td>P</td><td>i</td></tr>
+</tbody></table>
+</p><h4><b>Indexes for table '`0_workorders`', 2 items</b></h4><p><table>
+<tbody><tr>
+<th><b>Index Name</b></th><th><b>Clustered</b></th><th><b>Unique</b></th><th><b>Fields</b></th></tr>
+<tr>
+<td>PRIMARY</td><td>No</td><td>Yes</td><td>id</td></tr>
+<tr>
+<td>wo_ref</td><td>No</td><td>Yes</td><td>wo_ref</td></tr>
+</tbody></table>
+</p><h3><b><a name="Views">Views</a></b></h3><p></p><h3><b><a name="Procedures">Procedures</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Procedure Name</b></th><th><b>Parameters</b></th></tr>
+</tbody></table>
+</p><h3><b><a name="DataTypes">Data Types, 52 items</a></b></h3><p><table>
+<tbody><tr>
+<th><b>Type name</b></th><th><b>Code</b></th><th><b>Type and Size</b></th><th><b>Sizeable</b></th><th><b>Nullable</b></th><th><b>Searchable</b></th><th><b>Autoincremenal</b></th><th><b>Scale</b></th><th><b>User Type</b></th></tr>
+<tr>
+<td>bit</td><td>-7</td><td>1</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>tinyint</td><td>-6</td><td>3</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>tinyint unsigned</td><td>-6</td><td>3</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>tinyint auto_increment</td><td>-6</td><td>3</td><td>Yes</td><td>NO</td><td>YES</td><td>Yes</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>tinyint unsigned auto_increment</td><td>-6</td><td>3</td><td>Yes</td><td>NO</td><td>YES</td><td>Yes</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>bigint</td><td>-5</td><td>19</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>bigint unsigned</td><td>-5</td><td>20</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>bigint auto_increment</td><td>-5</td><td>19</td><td>Yes</td><td>NO</td><td>YES</td><td>Yes</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>bigint unsigned auto_increment</td><td>-5</td><td>20</td><td>Yes</td><td>NO</td><td>YES</td><td>Yes</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>long varbinary</td><td>-4</td><td>16777215</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>blob</td><td>-4</td><td>65535</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>longblob</td><td>-4</td><td>2147483647</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>tinyblob</td><td>-4</td><td>255</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>mediumblob</td><td>-4</td><td>16777215</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>varbinary</td><td>-3</td><td>255</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>binary</td><td>-2</td><td>255</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>long varchar</td><td>-1</td><td>16777215</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>text</td><td>-1</td><td>65535</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>mediumtext</td><td>-1</td><td>16777215</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>longtext</td><td>-1</td><td>2147483647</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>tinytext</td><td>-1</td><td>255</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>char</td><td>1</td><td>255</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>numeric</td><td>2</td><td>19</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>0..19</td><td>No</td></tr>
+<tr>
+<td>decimal</td><td>3</td><td>19</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>0..19</td><td>No</td></tr>
+<tr>
+<td>integer</td><td>4</td><td>10</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>integer unsigned</td><td>4</td><td>10</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>int</td><td>4</td><td>10</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>int unsigned</td><td>4</td><td>10</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>mediumint</td><td>4</td><td>7</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>mediumint unsigned</td><td>4</td><td>8</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>integer auto_increment</td><td>4</td><td>10</td><td>Yes</td><td>NO</td><td>YES</td><td>Yes</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>integer unsigned auto_increment</td><td>4</td><td>10</td><td>Yes</td><td>NO</td><td>YES</td><td>Yes</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>int auto_increment</td><td>4</td><td>10</td><td>Yes</td><td>NO</td><td>YES</td><td>Yes</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>int unsigned auto_increment</td><td>4</td><td>10</td><td>Yes</td><td>NO</td><td>YES</td><td>Yes</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>mediumint auto_increment</td><td>4</td><td>7</td><td>Yes</td><td>NO</td><td>YES</td><td>Yes</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>mediumint unsigned auto_increment</td><td>4</td><td>8</td><td>Yes</td><td>NO</td><td>YES</td><td>Yes</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>smallint</td><td>5</td><td>5</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>smallint unsigned</td><td>5</td><td>5</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>smallint auto_increment</td><td>5</td><td>5</td><td>Yes</td><td>NO</td><td>YES</td><td>Yes</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>smallint unsigned auto_increment</td><td>5</td><td>5</td><td>Yes</td><td>NO</td><td>YES</td><td>Yes</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>double</td><td>6</td><td>15</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>0..4</td><td>No</td></tr>
+<tr>
+<td>double auto_increment</td><td>6</td><td>15</td><td>Yes</td><td>NO</td><td>YES</td><td>Yes</td><td>0..4</td><td>No</td></tr>
+<tr>
+<td>float</td><td>7</td><td>7</td><td>Yes</td><td>YES</td><td>NO</td><td>No</td><td>0..2</td><td>No</td></tr>
+<tr>
+<td>float auto_increment</td><td>7</td><td>7</td><td>Yes</td><td>NO</td><td>NO</td><td>Yes</td><td>0..2</td><td>No</td></tr>
+<tr>
+<td>double</td><td>8</td><td>15</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>0..4</td><td>No</td></tr>
+<tr>
+<td>double auto_increment</td><td>8</td><td>15</td><td>Yes</td><td>NO</td><td>YES</td><td>Yes</td><td>0..4</td><td>No</td></tr>
+<tr>
+<td>date</td><td>91</td><td>10</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>time</td><td>92</td><td>8</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>year</td><td>5</td><td>4</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>datetime</td><td>93</td><td>21</td><td>No</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>timestamp</td><td>93</td><td>14</td><td>No</td><td>NO</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+<tr>
+<td>varchar</td><td>12</td><td>255</td><td>Yes</td><td>YES</td><td>YES</td><td>No</td><td>&nbsp;</td><td>No</td></tr>
+</tbody></table>
+</p></body></html>

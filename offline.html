@@ -1,0 +1,104 @@
+<html>
+	
+	<head>
+		<title></title>
+		<style>
+		#localStorageTest input[type=text], #localStorageTest input[type=email] {
+    display: block;
+    margin-bottom: 10px;
+    width: 60%;
+    max-width: 300px;
+    border: 1px solid #D8BF91;
+    margin-bottom: 6px;
+    padding: 5px !important;
+    font-family: 'Asap', sans-serif;
+    font-size: 0.9em;
+}
+#localStorageTest label {
+    display: block;
+}
+#localStorageTest textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid #D8BF91;
+    margin-bottom: 6px;
+    padding: 5px !important;
+    font-family: 'Asap', sans-serif;
+    font-size: 0.9em;
+}
+		</style>
+		<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+	</head>
+	<body>
+	<form id="localStorageTest" method="post" action="action_form.php">
+			<label>Name:</label>
+			<input type="text" name="name" id="name" class="stored" value="">
+
+			<label>Email:</label>
+			<input type="email" name="email" id="email" class="stored" value="">
+
+			<label>Message:</label>
+			<textarea name="message" id="message" class="stored"></textarea>
+			 
+			<input type="submit" class="demo-button" value="Submit">
+		</form>
+		<script>
+
+		function post_data(url,data){
+		    $.ajax({
+				url:url,
+				type:"post",
+				data:data,
+				success:function(){
+
+				}
+			});
+		}
+		$(function(){
+			//localStorage.form_data = '';
+			console.log(localStorage.form_data);
+			// call this function on page load it will check if internet conncted and local storage found it will post data on url.
+            var online = navigator.onLine;
+			if(localStorage.form_data && online == true){
+			var array = JSON.parse(localStorage.form_data);
+			var data_to_post = JSON.parse(localStorage.form_data);
+				for(var i =0; i < data_to_post.length; i++){
+					console.log(data_to_post[i]);// show forms data in console.
+					post_data(data_to_post[i][0],data_to_post[i][1]); // post data to server
+				}
+                localStorage.form_data = '';
+			}
+			
+		});
+		var form_array = [];
+			$(document).on("submit","#localStorageTest",function(e){ // on submit call this function
+			var online = navigator.onLine; // internet validator
+			if(online == false){ // if internet disabled
+				var local_array = [];
+				e.preventDefault();
+					var url = $(this).attr("action");
+					var form_data = $(this).serialize();
+					local_array.push(url);
+					local_array.push(form_data);
+					form_array.push(local_array); // push form array in local array.
+					
+					if(localStorage.form_data){ // check if local storage found push all local storage in array in temp array
+					    var temp = JSON.parse(localStorage.form_data);
+					    for(var k =0;  k < temp.length; k++) {
+                            form_array.push(temp[k]);
+                        }
+					}
+					localStorage.form_data = JSON.stringify(form_array); // all data save in local storage
+					console.log(form_array);
+					$("#localStorageTest")[0].reset(); // reset form after save form data
+					alert("Offline data has been saved!"); // show alert
+					return false;
+				}
+                return true; // return true if internet is connected so form will be posted in action url.. then it will not save data in local storage.
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,97 @@
+[18-Jun-2017 16:04:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'label_cell' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 132
+[18-Jun-2017 16:05:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/myworklet/public_html/project/view/view_history.php on line 133
+[18-Jun-2017 16:05:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/myworklet/public_html/project/view/view_history.php on line 133
+[18-Jun-2017 16:05:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/myworklet/public_html/project/view/view_history.php on line 133
+[18-Jun-2017 16:05:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/myworklet/public_html/project/view/view_history.php on line 133
+[18-Jun-2017 16:06:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/myworklet/public_html/project/view/view_history.php on line 133
+[18-Jun-2017 16:06:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/myworklet/public_html/project/view/view_history.php on line 133
+[18-Jun-2017 16:06:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/myworklet/public_html/project/view/view_history.php on line 133
+[18-Jun-2017 16:06:18 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 16:06:19 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 16:06:49 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/view/view_history.php on line 139
+[18-Jun-2017 16:06:50 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/view/view_history.php on line 139
+[18-Jun-2017 16:28:24 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/view/view_history.php on line 141
+[18-Jun-2017 16:30:10 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/view/view_history.php on line 141
+[18-Jun-2017 16:31:49 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/view/view_history.php on line 141
+[18-Jun-2017 16:31:56 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/view/view_history.php on line 141
+[18-Jun-2017 16:53:16 America/Chicago] PHP Parse error:  syntax error, unexpected '||' (T_BOOLEAN_OR) in /home/myworklet/public_html/project/view/view_history.php on line 126
+[18-Jun-2017 16:53:36 America/Chicago] PHP Parse error:  syntax error, unexpected '||' (T_BOOLEAN_OR) in /home/myworklet/public_html/project/view/view_history.php on line 126
+[18-Jun-2017 17:01:33 America/Chicago] PHP Parse error:  syntax error, unexpected 'background' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:03:34 America/Chicago] PHP Parse error:  syntax error, unexpected 'background' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:03:36 America/Chicago] PHP Parse error:  syntax error, unexpected 'background' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:03:49 America/Chicago] PHP Parse error:  syntax error, unexpected 'background' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:03:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'background' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:03:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'background' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:04:23 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home/myworklet/public_html/project/view/view_history.php on line 132
+[18-Jun-2017 17:04:24 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home/myworklet/public_html/project/view/view_history.php on line 132
+[18-Jun-2017 17:04:33 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home/myworklet/public_html/project/view/view_history.php on line 132
+[18-Jun-2017 17:05:09 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:05:24 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:05:25 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:05:26 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:05:52 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:06:10 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:07:10 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:07:14 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:07:16 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:07:25 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:07:36 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:08:11 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:08:28 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:08:30 America/Chicago] PHP Parse error:  syntax error, unexpected '$myrow' (T_VARIABLE) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:09:57 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:09:58 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:10:10 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:10:11 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:10:27 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:10:28 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:10:30 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:11:17 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:11:26 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 17:16:10 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 133
+[18-Jun-2017 17:29:35 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/myworklet/public_html/project/view/view_history.php on line 179
+[18-Jun-2017 17:30:19 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/myworklet/public_html/project/view/view_history.php on line 179
+[18-Jun-2017 17:30:42 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/myworklet/public_html/project/view/view_history.php on line 179
+[18-Jun-2017 18:11:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'task' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:11:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:11:28 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:11:29 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:11:30 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:11:40 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:11:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:11:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:12:03 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:13:01 America/Chicago] PHP Parse error:  syntax error, unexpected 'task' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:13:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'task' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:13:17 America/Chicago] PHP Parse error:  syntax error, unexpected 'task' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:13:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'task' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:13:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'task' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:13:49 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:13:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:14:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:14:07 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting ')' in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:14:08 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting ')' in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:14:24 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting ')' in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:14:26 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting ')' in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:14:28 America/Chicago] PHP Parse error:  syntax error, unexpected '", "' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:14:52 America/Chicago] PHP Parse error:  syntax error, unexpected '", "' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:14:53 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:14:54 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:14:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:15:10 America/Chicago] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:15:24 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting ')' in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:15:26 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting ')' in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:15:34 America/Chicago] PHP Parse error:  syntax error, unexpected 'sql2date' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:15:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'sql2date' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:15:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'sql2date' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:15:59 America/Chicago] PHP Parse error:  syntax error, unexpected 'sql2date' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:16:00 America/Chicago] PHP Parse error:  syntax error, unexpected 'sql2date' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:16:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'Project' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:16:54 America/Chicago] PHP Parse error:  syntax error, unexpected 'bgcolor' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:16:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'bgcolor' (T_STRING) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:17:21 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:17:22 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:17:40 America/Chicago] PHP Parse error:  syntax error, unexpected '$myrow' (T_VARIABLE) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:17:51 America/Chicago] PHP Parse error:  syntax error, unexpected '$myrow' (T_VARIABLE) in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:18:31 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/myworklet/public_html/project/view/view_history.php on line 131
+[18-Jun-2017 18:18:54 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/myworklet/public_html/project/view/view_history.php on line 131

@@ -1,0 +1,649 @@
+[06-Jun-2017 07:41:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'TASK' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 72
+[06-Jun-2017 07:41:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'TASK' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 72
+[06-Jun-2017 07:42:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'TASK' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 72
+[06-Jun-2017 07:43:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'color' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 74
+[06-Jun-2017 07:43:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'color' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 74
+[06-Jun-2017 07:43:36 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 74
+[06-Jun-2017 07:45:22 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 74
+[06-Jun-2017 07:56:17 America/Chicago] PHP Parse error:  syntax error, unexpected '_blank' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 78
+[06-Jun-2017 08:13:06 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 111
+[06-Jun-2017 10:19:01 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 428
+[06-Jun-2017 10:20:08 America/Chicago] PHP Parse error:  syntax error, unexpected '100' (T_LNUMBER) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 432
+[06-Jun-2017 10:20:21 America/Chicago] PHP Parse error:  syntax error, unexpected '100' (T_LNUMBER) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 432
+[06-Jun-2017 10:20:24 America/Chicago] PHP Parse error:  syntax error, unexpected '100' (T_LNUMBER) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 432
+[06-Jun-2017 10:20:34 America/Chicago] PHP Parse error:  syntax error, unexpected '100' (T_LNUMBER) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 432
+[06-Jun-2017 10:20:36 America/Chicago] PHP Parse error:  syntax error, unexpected '100' (T_LNUMBER) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 432
+[06-Jun-2017 10:43:37 America/Chicago] PHP Parse error:  syntax error, unexpected '<', expecting ')' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 88
+[06-Jun-2017 10:43:56 America/Chicago] PHP Parse error:  syntax error, unexpected '">Blue</button>"' (T_CONSTANT_ENCAPSED_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 88
+[06-Jun-2017 10:44:45 America/Chicago] PHP Parse error:  syntax error, unexpected '">Blue</button>"' (T_CONSTANT_ENCAPSED_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 88
+[06-Jun-2017 10:47:41 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 88
+[06-Jun-2017 10:48:26 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 89
+[06-Jun-2017 10:48:28 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 89
+[06-Jun-2017 10:48:54 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 88
+[06-Jun-2017 10:48:56 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 88
+[06-Jun-2017 10:50:27 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 88
+[06-Jun-2017 11:00:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 90
+[06-Jun-2017 11:00:39 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 90
+[06-Jun-2017 11:01:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 90
+[06-Jun-2017 11:02:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 90
+[06-Jun-2017 11:02:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 92
+[06-Jun-2017 11:03:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 92
+[06-Jun-2017 11:03:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 92
+[06-Jun-2017 11:03:40 America/Chicago] PHP Parse error:  syntax error, unexpected 'google' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 92
+[06-Jun-2017 11:03:49 America/Chicago] PHP Parse error:  syntax error, unexpected '" class="' (T_CONSTANT_ENCAPSED_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 92
+[06-Jun-2017 11:04:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 93
+[06-Jun-2017 11:04:40 America/Chicago] PHP Parse error:  syntax error, unexpected 'href' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 93
+[06-Jun-2017 11:06:01 America/Chicago] PHP Parse error:  syntax error, unexpected 'href' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 93
+[06-Jun-2017 11:06:23 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 91
+[06-Jun-2017 11:21:54 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 14
+[06-Jun-2017 11:28:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 89
+[06-Jun-2017 11:29:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 89
+[06-Jun-2017 11:29:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 89
+[06-Jun-2017 11:29:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 89
+[06-Jun-2017 11:30:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 92
+[06-Jun-2017 11:30:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 92
+[06-Jun-2017 11:30:29 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 92
+[06-Jun-2017 11:31:15 America/Chicago] PHP Parse error:  syntax error, unexpected '" href=../inquiry/task_inquiry' (T_CONSTANT_ENCAPSED_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 94
+[06-Jun-2017 11:31:18 America/Chicago] PHP Parse error:  syntax error, unexpected '" href=../inquiry/task_inquiry' (T_CONSTANT_ENCAPSED_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 94
+[06-Jun-2017 11:57:01 America/Chicago] PHP Parse error:  syntax error, unexpected 'green' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 479
+[06-Jun-2017 11:57:52 America/Chicago] PHP Parse error:  syntax error, unexpected 'green' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 481
+[06-Jun-2017 11:57:54 America/Chicago] PHP Parse error:  syntax error, unexpected 'green' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 481
+[06-Jun-2017 11:57:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'green' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 481
+[06-Jun-2017 11:58:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'green' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 481
+[06-Jun-2017 11:58:10 America/Chicago] PHP Parse error:  syntax error, unexpected 'green' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 481
+[06-Jun-2017 11:59:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'green' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 479
+[06-Jun-2017 11:59:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'green' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 479
+[06-Jun-2017 12:00:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'green' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 479
+[06-Jun-2017 12:16:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'glyphicon' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 82
+[06-Jun-2017 12:18:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'glyphicon' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 82
+[06-Jun-2017 12:26:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'rel' (T_STRING), expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 74
+[06-Jun-2017 12:27:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'white' (T_STRING), expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 120
+[06-Jun-2017 12:27:29 America/Chicago] PHP Parse error:  syntax error, unexpected 'white' (T_STRING), expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 120
+[06-Jun-2017 12:40:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'icon' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 118
+[06-Jun-2017 12:42:40 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 120
+[06-Jun-2017 12:43:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 120
+[06-Jun-2017 12:51:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 120
+[06-Jun-2017 12:52:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 118
+[06-Jun-2017 12:52:44 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 123
+[06-Jun-2017 13:01:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'http' (T_STRING), expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 116
+[06-Jun-2017 13:02:39 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 116
+[06-Jun-2017 13:02:45 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 116
+[06-Jun-2017 13:03:14 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 117
+[06-Jun-2017 13:10:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 121
+[06-Jun-2017 13:11:46 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 121
+[06-Jun-2017 13:11:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 122
+[06-Jun-2017 13:12:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 121
+[06-Jun-2017 13:12:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 121
+[06-Jun-2017 13:13:00 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 121
+[06-Jun-2017 13:13:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 121
+[06-Jun-2017 13:13:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 121
+[06-Jun-2017 13:13:33 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 121
+[06-Jun-2017 13:14:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 121
+[06-Jun-2017 13:15:57 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 110
+[06-Jun-2017 13:16:19 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 110
+[06-Jun-2017 13:17:15 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 110
+[06-Jun-2017 13:50:24 America/Chicago] PHP Parse error:  syntax error, unexpected 'btn' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 547
+[06-Jun-2017 13:57:16 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 535
+[06-Jun-2017 13:58:30 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 538
+[06-Jun-2017 14:00:06 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 538
+[10-Jun-2017 17:22:22 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 867
+[10-Jun-2017 17:38:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 165
+[10-Jun-2017 17:40:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'badge' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 163
+[10-Jun-2017 18:15:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'could' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 178
+[10-Jun-2017 18:28:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'container' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 204
+[10-Jun-2017 18:29:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'container' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 203
+[10-Jun-2017 18:45:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 207
+[10-Jun-2017 18:52:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 212
+[10-Jun-2017 19:14:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'could' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 181
+[10-Jun-2017 19:15:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'AND' (T_LOGICAL_AND) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 177
+[11-Jun-2017 05:53:19 America/Chicago] PHP Parse error:  syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 688
+[11-Jun-2017 06:49:56 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 112
+[11-Jun-2017 06:50:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'tooltip' (T_STRING), expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 112
+[11-Jun-2017 06:51:25 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 114
+[11-Jun-2017 06:51:27 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 114
+[11-Jun-2017 06:51:29 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 114
+[11-Jun-2017 06:51:40 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 114
+[11-Jun-2017 06:51:43 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 114
+[11-Jun-2017 06:53:43 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 112
+[11-Jun-2017 06:57:11 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 130
+[11-Jun-2017 06:57:31 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 130
+[11-Jun-2017 07:15:53 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 814
+[11-Jun-2017 07:17:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 814
+[11-Jun-2017 08:05:12 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 220
+[11-Jun-2017 08:06:39 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 219
+[11-Jun-2017 08:06:55 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 219
+[11-Jun-2017 08:07:08 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 219
+[11-Jun-2017 08:07:09 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 219
+[11-Jun-2017 08:07:12 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 219
+[11-Jun-2017 08:07:13 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 219
+[11-Jun-2017 08:07:26 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 219
+[11-Jun-2017 08:07:27 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 219
+[11-Jun-2017 08:08:00 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 219
+[11-Jun-2017 08:10:45 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 220
+[11-Jun-2017 13:19:32 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 233
+[11-Jun-2017 13:19:51 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 233
+[11-Jun-2017 13:19:52 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 233
+[11-Jun-2017 13:20:34 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 231
+[11-Jun-2017 13:20:48 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 231
+[11-Jun-2017 13:20:49 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 231
+[11-Jun-2017 13:21:06 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 231
+[11-Jun-2017 13:21:52 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 231
+[11-Jun-2017 13:22:03 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 231
+[11-Jun-2017 13:22:05 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 231
+[11-Jun-2017 13:27:35 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 186
+[11-Jun-2017 13:33:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 239
+[11-Jun-2017 13:34:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 240
+[11-Jun-2017 13:34:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 240
+[11-Jun-2017 13:35:11 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 245
+[11-Jun-2017 13:35:14 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 245
+[11-Jun-2017 13:36:38 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 245
+[11-Jun-2017 13:37:24 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 245
+[11-Jun-2017 13:38:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 245
+[11-Jun-2017 13:38:10 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 245
+[11-Jun-2017 13:38:11 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 245
+[11-Jun-2017 13:38:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 245
+[11-Jun-2017 13:39:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 244
+[11-Jun-2017 13:39:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 244
+[11-Jun-2017 13:39:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 244
+[11-Jun-2017 13:42:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 244
+[11-Jun-2017 13:42:52 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 241
+[11-Jun-2017 13:43:36 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 241
+[11-Jun-2017 13:43:39 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 241
+[11-Jun-2017 13:43:43 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 241
+[11-Jun-2017 13:43:54 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 241
+[11-Jun-2017 13:43:56 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 241
+[11-Jun-2017 13:43:57 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 241
+[11-Jun-2017 13:45:08 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 242
+[11-Jun-2017 13:48:56 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 275
+[11-Jun-2017 13:48:57 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 275
+[11-Jun-2017 13:49:38 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 275
+[11-Jun-2017 13:52:49 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 255
+[11-Jun-2017 13:53:16 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 255
+[11-Jun-2017 13:54:24 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 254
+[11-Jun-2017 13:54:59 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 254
+[11-Jun-2017 13:55:47 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 203
+[11-Jun-2017 13:56:28 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 205
+[11-Jun-2017 13:56:33 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 205
+[11-Jun-2017 13:56:49 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 254
+[11-Jun-2017 13:56:51 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 254
+[11-Jun-2017 19:16:01 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/dys/public_html/project/inquiry/calender.php on line 245
+[11-Jun-2017 19:16:11 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/dys/public_html/project/inquiry/calender.php on line 245
+[11-Jun-2017 19:16:13 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/dys/public_html/project/inquiry/calender.php on line 245
+[11-Jun-2017 19:16:24 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/dys/public_html/project/inquiry/calender.php on line 245
+[11-Jun-2017 19:16:26 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/dys/public_html/project/inquiry/calender.php on line 245
+[11-Jun-2017 19:16:27 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/dys/public_html/project/inquiry/calender.php on line 245
+[11-Jun-2017 19:16:39 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/dys/public_html/project/inquiry/calender.php on line 245
+[12-Jun-2017 11:35:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'btn' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 797
+[12-Jun-2017 12:06:58 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 780
+[12-Jun-2017 12:07:34 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 780
+[12-Jun-2017 12:07:37 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 780
+[12-Jun-2017 12:29:59 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 1035
+[12-Jun-2017 12:30:15 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 1035
+[12-Jun-2017 12:30:17 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 1035
+[12-Jun-2017 12:30:28 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 1035
+[12-Jun-2017 12:34:31 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/dys/public_html/project/inquiry/task_inquiry.php on line 1102
+[12-Jun-2017 12:55:32 America/Chicago] PHP Parse error:  syntax error, unexpected ']' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 1038
+[12-Jun-2017 12:55:33 America/Chicago] PHP Parse error:  syntax error, unexpected ']' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 1038
+[12-Jun-2017 12:55:40 America/Chicago] PHP Parse error:  syntax error, unexpected ']' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 1038
+[12-Jun-2017 13:17:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'page' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 22
+[12-Jun-2017 13:29:59 America/Chicago] PHP Parse error:  syntax error, unexpected ']' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 714
+[12-Jun-2017 13:31:27 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 716
+[12-Jun-2017 13:32:34 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 715
+[12-Jun-2017 13:32:48 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 715
+[12-Jun-2017 13:35:12 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 21
+[12-Jun-2017 13:41:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'start_row' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 105
+[12-Jun-2017 13:41:20 America/Chicago] PHP Parse error:  syntax error, unexpected 'start_row' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 105
+[12-Jun-2017 13:41:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'start_row' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 105
+[12-Jun-2017 13:41:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'start_row' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 105
+[12-Jun-2017 13:41:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'start_row' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 105
+[12-Jun-2017 13:41:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'start_row' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 105
+[12-Jun-2017 13:41:28 America/Chicago] PHP Parse error:  syntax error, unexpected 'start_row' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 105
+[12-Jun-2017 13:46:24 America/Chicago] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE), expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 712
+[12-Jun-2017 13:47:07 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting ')' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 712
+[12-Jun-2017 15:47:48 America/Chicago] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 602
+[12-Jun-2017 15:48:00 America/Chicago] PHP Parse error:  syntax error, unexpected '4' (T_LNUMBER) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 602
+[12-Jun-2017 15:48:00 America/Chicago] PHP Parse error:  syntax error, unexpected 'remarks' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 607
+[12-Jun-2017 15:48:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'remarks' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 607
+[12-Jun-2017 15:48:40 America/Chicago] PHP Parse error:  syntax error, unexpected 'remarks' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 607
+[12-Jun-2017 15:48:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 607
+[12-Jun-2017 15:48:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 607
+[12-Jun-2017 15:48:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 607
+[12-Jun-2017 15:48:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 607
+[12-Jun-2017 15:51:12 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 599
+[12-Jun-2017 15:51:21 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 599
+[13-Jun-2017 15:38:08 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 105
+[13-Jun-2017 16:08:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'btn' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 105
+[13-Jun-2017 16:08:46 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING), expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 105
+[13-Jun-2017 16:09:54 America/Chicago] PHP Parse error:  syntax error, unexpected 'btn' (T_STRING) in /home/dys/public_html/project/inquiry/task_inquiry.php on line 105
+[13-Jun-2017 16:11:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'bs' (T_STRING), expecting ',' or ';' in /home/dys/public_html/project/inquiry/task_inquiry.php on line 109
+[17-Jun-2017 15:42:07 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 216
+[17-Jun-2017 16:00:12 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 178
+[17-Jun-2017 16:06:18 America/Chicago] PHP Parse error:  syntax error, unexpected '', strtotime("-2 days"));' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 225
+[17-Jun-2017 16:06:26 America/Chicago] PHP Parse error:  syntax error, unexpected '', strtotime("-1 days"));' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 225
+[17-Jun-2017 16:10:32 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 224
+[17-Jun-2017 16:10:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 224
+[17-Jun-2017 16:10:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 224
+[17-Jun-2017 16:19:28 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 235
+[17-Jun-2017 16:20:08 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 235
+[17-Jun-2017 16:20:10 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 235
+[17-Jun-2017 16:20:12 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 235
+[17-Jun-2017 16:20:21 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 235
+[17-Jun-2017 16:53:10 America/Chicago] PHP Parse error:  syntax error, unexpected '%', expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 192
+[17-Jun-2017 16:53:25 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 193
+[17-Jun-2017 16:53:26 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 193
+[17-Jun-2017 16:53:32 America/Chicago] PHP Parse error:  syntax error, unexpected 'could' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 196
+[17-Jun-2017 16:53:33 America/Chicago] PHP Parse error:  syntax error, unexpected 'could' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 196
+[17-Jun-2017 16:53:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'could' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 196
+[17-Jun-2017 17:26:24 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 175
+[17-Jun-2017 17:26:36 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 175
+[17-Jun-2017 17:27:00 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 219
+[17-Jun-2017 18:27:05 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 172
+[18-Jun-2017 12:36:02 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 593
+[18-Jun-2017 12:36:30 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 593
+[18-Jun-2017 13:02:24 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 560
+[18-Jun-2017 18:49:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'update' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 182
+[18-Jun-2017 18:51:30 America/Chicago] PHP Parse error:  syntax error, unexpected 'SELECT' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 188
+[18-Jun-2017 18:53:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'SELECT' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 188
+[18-Jun-2017 19:03:59 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 184
+[18-Jun-2017 19:04:01 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 184
+[18-Jun-2017 19:04:15 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 184
+[18-Jun-2017 19:04:17 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 184
+[18-Jun-2017 19:05:34 America/Chicago] PHP Parse error:  syntax error, unexpected ']' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 186
+[18-Jun-2017 19:29:37 America/Chicago] PHP Parse error:  syntax error, unexpected 'days' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 200
+[19-Jun-2017 11:45:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting '(' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 275
+[19-Jun-2017 11:51:30 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 274
+[19-Jun-2017 11:51:41 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 274
+[19-Jun-2017 11:51:42 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 274
+[19-Jun-2017 11:52:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'date' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 275
+[19-Jun-2017 12:03:30 America/Chicago] PHP Parse error:  syntax error, unexpected 'strtotime' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 274
+[19-Jun-2017 12:23:36 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 328
+[19-Jun-2017 12:26:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'Nov' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 328
+[19-Jun-2017 12:40:25 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 266
+[19-Jun-2017 12:51:37 America/Chicago] PHP Parse error:  syntax error, unexpected '10' (T_LNUMBER) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 268
+[19-Jun-2017 13:00:13 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 269
+[19-Jun-2017 13:00:13 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 269
+[19-Jun-2017 13:01:15 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 269
+[19-Jun-2017 13:01:17 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 269
+[19-Jun-2017 13:01:46 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 269
+[20-Jun-2017 10:34:00 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 263
+[20-Jun-2017 10:34:20 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 263
+[20-Jun-2017 10:34:25 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 263
+[20-Jun-2017 10:38:30 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 263
+[20-Jun-2017 11:00:42 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 864
+[20-Jun-2017 11:01:57 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 864
+[20-Jun-2017 11:01:59 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 864
+[20-Jun-2017 11:02:00 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 864
+[20-Jun-2017 11:02:01 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 864
+[20-Jun-2017 11:02:44 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 864
+[20-Jun-2017 11:02:46 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 864
+[20-Jun-2017 11:02:48 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 864
+[20-Jun-2017 11:03:07 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 864
+[20-Jun-2017 11:03:10 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 864
+[20-Jun-2017 11:03:53 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 864
+[20-Jun-2017 11:04:46 America/Chicago] PHP Parse error:  syntax error, unexpected 'ORDER' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 866
+[20-Jun-2017 11:04:53 America/Chicago] PHP Parse error:  syntax error, unexpected 'ORDER' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 866
+[20-Jun-2017 11:06:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'ORDER' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 866
+[20-Jun-2017 11:06:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'ORDER' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 866
+[20-Jun-2017 11:06:11 America/Chicago] PHP Parse error:  syntax error, unexpected 'could' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 869
+[20-Jun-2017 11:06:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'could' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 869
+[20-Jun-2017 11:20:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 882
+[20-Jun-2017 11:20:36 America/Chicago] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 882
+[20-Jun-2017 11:20:41 America/Chicago] PHP Fatal error:  Cannot redeclare get_duration_() (previously declared in /home/myworklet/public_html/project/inquiry/task_inquiry.php:863) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 886
+[20-Jun-2017 13:08:10 America/Chicago] PHP Parse error:  syntax error, unexpected 'edit' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 268
+[20-Jun-2017 13:08:49 America/Chicago] PHP Parse error:  syntax error, unexpected 'edit' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 268
+[20-Jun-2017 13:08:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'edit' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 271
+[20-Jun-2017 13:09:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'edit' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 271
+[20-Jun-2017 13:16:18 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 266
+[20-Jun-2017 13:40:35 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 678
+[20-Jun-2017 13:40:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 13:40:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 13:43:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 681
+[20-Jun-2017 13:43:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 681
+[20-Jun-2017 13:43:43 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 684
+[20-Jun-2017 13:44:17 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 684
+[20-Jun-2017 13:44:18 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 684
+[20-Jun-2017 13:49:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'bg' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 678
+[20-Jun-2017 13:52:06 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 13:52:52 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 685
+[20-Jun-2017 13:54:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'pstatus_list' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 13:54:14 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 13:54:15 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 13:54:23 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 13:54:24 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 13:54:37 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 13:54:38 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 13:55:01 America/Chicago] PHP Parse error:  syntax error, unexpected ''pstatus_list( $name,$row['' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 13:55:02 America/Chicago] PHP Parse error:  syntax error, unexpected ''pstatus_list( $name,$row['' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 13:55:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'status' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 13:55:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'status' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 13:55:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'status' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 679
+[20-Jun-2017 15:24:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'label_cell' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 692
+[20-Jun-2017 15:57:40 America/Chicago] PHP Parse error:  syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 651
+[20-Jun-2017 15:57:49 America/Chicago] PHP Parse error:  syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 651
+[20-Jun-2017 16:09:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 682
+[20-Jun-2017 16:10:54 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 682
+[20-Jun-2017 16:12:25 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 682
+[20-Jun-2017 16:12:32 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 682
+[20-Jun-2017 16:12:36 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 682
+[20-Jun-2017 16:12:50 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 682
+[20-Jun-2017 16:13:06 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 682
+[20-Jun-2017 16:13:07 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 682
+[20-Jun-2017 16:13:17 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 682
+[20-Jun-2017 16:13:18 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 682
+[20-Jun-2017 16:43:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'bgcolor' (T_STRING) in /home/myworklet/public_html/includes/ui/db_pager_view.inc on line 130
+[20-Jun-2017 16:52:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1094
+[20-Jun-2017 16:53:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1094
+[20-Jun-2017 16:53:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1094
+[20-Jun-2017 16:53:23 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1094
+[20-Jun-2017 17:06:07 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1062
+[20-Jun-2017 17:06:20 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1062
+[20-Jun-2017 17:06:42 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1062
+[20-Jun-2017 17:06:44 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1060
+[20-Jun-2017 17:07:25 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1060
+[20-Jun-2017 17:07:26 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1060
+[20-Jun-2017 17:07:27 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1060
+[20-Jun-2017 17:07:39 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1060
+[20-Jun-2017 17:07:40 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1060
+[20-Jun-2017 17:07:41 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1060
+[20-Jun-2017 17:07:56 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1076
+[20-Jun-2017 17:07:58 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1076
+[20-Jun-2017 17:08:12 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1076
+[20-Jun-2017 17:08:13 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1076
+[20-Jun-2017 17:08:13 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1076
+[20-Jun-2017 17:08:14 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1076
+[20-Jun-2017 17:08:49 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1076
+[20-Jun-2017 17:08:50 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1076
+[20-Jun-2017 17:08:52 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1076
+[20-Jun-2017 17:09:34 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1060
+[20-Jun-2017 17:09:46 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1060
+[20-Jun-2017 17:09:47 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1060
+[20-Jun-2017 17:13:02 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1100
+[20-Jun-2017 17:13:11 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1100
+[20-Jun-2017 17:13:12 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1100
+[20-Jun-2017 17:16:45 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 687
+[20-Jun-2017 17:17:02 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 687
+[20-Jun-2017 17:17:24 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 684
+[20-Jun-2017 17:25:25 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:25:26 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:25:49 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:25:50 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:25:51 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:25:52 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:26:22 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:26:23 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:26:23 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:26:25 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:27:02 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:27:03 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:27:04 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:27:20 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:27:21 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:27:31 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:27:31 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:27:32 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:27:43 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:27:44 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:27:45 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:28:00 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:28:02 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:28:16 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:28:17 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:28:24 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:28:24 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:28:25 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:28:33 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:28:34 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:28:35 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:29:08 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:29:09 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:29:09 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:29:51 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 17:34:13 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 698
+[20-Jun-2017 17:34:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 698
+[20-Jun-2017 18:18:47 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:19:00 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:19:01 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:19:02 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:19:17 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:20:19 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:20:32 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:20:33 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:20:35 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:20:45 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:20:46 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:20:53 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:20:54 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:20:55 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:21:05 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:21:06 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:21:18 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:21:41 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:21:42 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:21:43 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:21:53 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:23:47 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:24:13 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:24:14 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:24:22 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:24:23 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:24:24 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:24:35 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:24:35 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:24:36 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:24:53 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:24:54 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:25:00 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 683
+[20-Jun-2017 18:48:25 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 701
+[20-Jun-2017 18:49:21 America/Chicago] PHP Fatal error:  Cannot redeclare update_status() (previously declared in /home/myworklet/public_html/project/inquiry/task_inquiry.php:668) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 708
+[21-Jun-2017 10:05:42 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 281
+[21-Jun-2017 10:05:52 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 281
+[21-Jun-2017 10:05:53 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 281
+[21-Jun-2017 10:05:56 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 281
+[21-Jun-2017 10:36:29 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1144
+[21-Jun-2017 10:36:51 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1144
+[21-Jun-2017 10:59:43 America/Chicago] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE), expecting '(' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 746
+[21-Jun-2017 12:10:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 14
+[21-Jun-2017 12:10:57 America/Chicago] PHP Parse error:  syntax error, unexpected '$priority' (T_VARIABLE), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1165
+[21-Jun-2017 13:33:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'alt_table_row_color' (T_STRING), expecting '(' in /home/myworklet/public_html/includes/ui/db_pager_view.inc on line 83
+[21-Jun-2017 13:56:37 America/Chicago] PHP Parse error:  syntax error, unexpected 'alt_table_row_color' (T_STRING), expecting '(' in /home/myworklet/public_html/includes/ui/db_pager_view.inc on line 86
+[21-Jun-2017 14:09:15 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/myworklet/public_html/includes/ui/db_pager_view.inc on line 80
+[21-Jun-2017 14:10:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'start_row' (T_STRING) in /home/myworklet/public_html/includes/ui/db_pager_view.inc on line 82
+[24-Jun-2017 10:47:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'Assign' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1124
+[24-Jun-2017 10:47:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'Assign' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1124
+[24-Jun-2017 11:00:16 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1166
+[24-Jun-2017 11:00:32 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1166
+[24-Jun-2017 11:00:34 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1166
+[24-Jun-2017 11:01:24 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1166
+[24-Jun-2017 11:01:25 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1166
+[24-Jun-2017 11:01:26 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1166
+[24-Jun-2017 11:01:33 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1166
+[24-Jun-2017 11:01:34 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1166
+[24-Jun-2017 11:01:54 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1166
+[24-Jun-2017 11:01:55 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1166
+[24-Jun-2017 11:22:12 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 310
+[24-Jun-2017 11:22:21 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 310
+[24-Jun-2017 11:36:56 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1115
+[24-Jun-2017 11:37:18 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1115
+[24-Jun-2017 11:47:23 America/Chicago] PHP Parse error:  syntax error, unexpected 'placeholder' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1117
+[24-Jun-2017 12:04:54 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 608
+[25-Jun-2017 02:58:55 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1084
+[25-Jun-2017 02:59:03 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1084
+[25-Jun-2017 02:59:14 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1084
+[25-Jun-2017 03:26:23 America/Chicago] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 675
+[25-Jun-2017 03:30:15 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 663
+[25-Jun-2017 03:31:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'iconPM' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 800
+[25-Jun-2017 03:31:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'iconPM' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 273
+[25-Jun-2017 03:33:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'iconPM' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 290
+[25-Jun-2017 03:33:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'iconPM' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 290
+[25-Jun-2017 03:34:36 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 288
+[25-Jun-2017 03:34:46 America/Chicago] PHP Parse error:  syntax error, unexpected 'iconPM' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 291
+[25-Jun-2017 03:35:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'iconPM' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 290
+[25-Jun-2017 03:35:03 America/Chicago] PHP Parse error:  syntax error, unexpected 'iconPM' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 290
+[25-Jun-2017 03:44:25 America/Chicago] PHP Parse error:  syntax error, unexpected '$duration_diff' (T_VARIABLE) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 969
+[25-Jun-2017 03:52:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'priority' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 744
+[25-Jun-2017 03:56:05 America/Chicago] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 745
+[25-Jun-2017 04:42:15 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 744
+[25-Jun-2017 04:42:22 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 744
+[25-Jun-2017 04:51:59 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 677
+[25-Jun-2017 04:52:18 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 677
+[25-Jun-2017 04:52:51 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 673
+[25-Jun-2017 04:52:52 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 673
+[25-Jun-2017 04:53:18 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 673
+[25-Jun-2017 04:57:31 America/Chicago] PHP Parse error:  syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 677
+[25-Jun-2017 05:06:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'priority' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 745
+[25-Jun-2017 05:07:10 America/Chicago] PHP Parse error:  syntax error, unexpected 'priority' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 745
+[25-Jun-2017 06:27:33 America/Chicago] PHP Parse error:  syntax error, unexpected '' . $Format_Date . '' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1075
+[25-Jun-2017 06:45:16 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1072
+[25-Jun-2017 06:45:29 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1072
+[25-Jun-2017 06:45:31 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1072
+[25-Jun-2017 06:45:38 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1072
+[25-Jun-2017 06:45:39 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1072
+[25-Jun-2017 08:14:23 America/Chicago] PHP Parse error:  syntax error, unexpected 'user_id' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 240
+[25-Jun-2017 08:15:01 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 241
+[25-Jun-2017 08:17:19 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 242
+[25-Jun-2017 08:18:04 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1252
+[25-Jun-2017 08:18:13 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1252
+[25-Jun-2017 08:18:15 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1252
+[25-Jun-2017 10:46:48 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 824
+[25-Jun-2017 10:47:06 America/Chicago] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 826
+[25-Jun-2017 10:47:32 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 820
+[25-Jun-2017 10:47:35 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 820
+[25-Jun-2017 10:48:11 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 820
+[25-Jun-2017 10:48:13 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 820
+[25-Jun-2017 10:48:25 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 820
+[25-Jun-2017 10:48:27 America/Chicago] PHP Parse error:  syntax error, unexpected '";' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 822
+[25-Jun-2017 10:48:46 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 820
+[25-Jun-2017 10:49:47 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 820
+[25-Jun-2017 10:50:49 America/Chicago] PHP Parse error:  syntax error, unexpected '". "' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 820
+[25-Jun-2017 10:51:13 America/Chicago] PHP Parse error:  syntax error, unexpected '". 112 "' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 820
+[25-Jun-2017 10:51:15 America/Chicago] PHP Parse error:  syntax error, unexpected '". 112 "' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 820
+[25-Jun-2017 10:51:29 America/Chicago] PHP Parse error:  syntax error, unexpected '";' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 822
+[25-Jun-2017 10:51:31 America/Chicago] PHP Parse error:  syntax error, unexpected '";' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 822
+[25-Jun-2017 10:52:45 America/Chicago] PHP Parse error:  syntax error, unexpected '";' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 825
+[25-Jun-2017 10:53:11 America/Chicago] PHP Parse error:  syntax error, unexpected '";' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 825
+[25-Jun-2017 10:53:13 America/Chicago] PHP Parse error:  syntax error, unexpected '";' (T_CONSTANT_ENCAPSED_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 825
+[25-Jun-2017 11:29:20 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 833
+[25-Jun-2017 11:29:42 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 833
+[25-Jun-2017 11:29:44 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 833
+[25-Jun-2017 11:29:53 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 833
+[25-Jun-2017 11:29:55 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 833
+[25-Jun-2017 12:11:26 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 825
+[25-Jun-2017 12:15:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 819
+[25-Jun-2017 12:34:58 America/Chicago] PHP Parse error:  syntax error, unexpected '<', expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 291
+[25-Jun-2017 12:35:07 America/Chicago] PHP Parse error:  syntax error, unexpected '<', expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 291
+[25-Jun-2017 12:35:10 America/Chicago] PHP Parse error:  syntax error, unexpected '<', expecting ')' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 291
+[25-Jun-2017 12:37:21 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 291
+[25-Jun-2017 12:37:37 America/Chicago] PHP Parse error:  syntax error, unexpected 'Last' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 291
+[25-Jun-2017 12:37:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'Last' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 291
+[25-Jun-2017 15:10:05 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 24
+[25-Jun-2017 15:10:20 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 24
+[25-Jun-2017 15:10:21 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 24
+[25-Jun-2017 15:10:35 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1268
+[25-Jun-2017 15:10:36 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1268
+[25-Jun-2017 16:32:49 America/Chicago] PHP Parse error:  syntax error, unexpected 'info' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 188
+[25-Jun-2017 16:33:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'info' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 188
+[25-Jun-2017 16:33:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'info' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 187
+[25-Jun-2017 16:34:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'info' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 187
+[25-Jun-2017 16:34:28 America/Chicago] PHP Parse error:  syntax error, unexpected 'info' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 192
+[25-Jun-2017 16:35:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'info' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 191
+[25-Jun-2017 17:42:45 America/Chicago] PHP Parse error:  syntax error, unexpected '$tasks_added_today' (T_VARIABLE), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 278
+[26-Jun-2017 02:27:06 America/Chicago] PHP Parse error:  syntax error, unexpected '$tasks_added_today' (T_VARIABLE), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 278
+[26-Jun-2017 02:27:56 America/Chicago] PHP Parse error:  syntax error, unexpected '$tasks_added_today' (T_VARIABLE), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 278
+[26-Jun-2017 02:30:31 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 283
+[26-Jun-2017 03:05:49 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 270
+[26-Jun-2017 03:13:14 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 270
+[26-Jun-2017 18:25:18 America/Chicago] PHP Parse error:  syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1329
+[26-Jun-2017 18:30:33 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1328
+[27-Jun-2017 02:33:36 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 194
+[27-Jun-2017 02:33:49 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 161
+[27-Jun-2017 02:38:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 548
+[27-Jun-2017 03:14:38 America/Chicago] PHP Parse error:  syntax error, unexpected 'badge' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 561
+[27-Jun-2017 04:07:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'could' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 457
+[27-Jun-2017 04:08:17 America/Chicago] PHP Parse error:  syntax error, unexpected 'could' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 457
+[27-Jun-2017 04:08:20 America/Chicago] PHP Parse error:  syntax error, unexpected 'could' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 457
+[27-Jun-2017 04:47:10 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1391
+[27-Jun-2017 04:53:20 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 579
+[27-Jun-2017 04:53:22 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 579
+[27-Jun-2017 04:56:14 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 579
+[27-Jun-2017 04:56:47 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 582
+[27-Jun-2017 04:56:49 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 582
+[27-Jun-2017 04:57:06 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 579
+[27-Jun-2017 04:57:08 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 579
+[27-Jun-2017 04:57:11 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 579
+[27-Jun-2017 05:01:32 America/Chicago] PHP Parse error:  syntax error, unexpected '!=' (T_IS_NOT_EQUAL) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 600
+[27-Jun-2017 05:33:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'iconPM1' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 661
+[27-Jun-2017 05:33:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'iconPM1' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 661
+[27-Jun-2017 10:11:18 America/Chicago] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 1391
+[27-Jun-2017 10:12:26 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1381
+[27-Jun-2017 10:12:43 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1381
+[27-Jun-2017 10:15:13 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1394
+[27-Jun-2017 10:15:42 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1394
+[27-Jun-2017 10:16:42 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1395
+[27-Jun-2017 10:19:07 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1397
+[27-Jun-2017 10:19:26 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1397
+[27-Jun-2017 10:26:20 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1280
+[27-Jun-2017 10:26:39 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1303
+[27-Jun-2017 10:26:42 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1303
+[27-Jun-2017 10:26:49 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1318
+[27-Jun-2017 10:26:53 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1318
+[27-Jun-2017 10:26:58 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1321
+[27-Jun-2017 10:26:59 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1321
+[27-Jun-2017 10:27:45 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1334
+[27-Jun-2017 10:41:58 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1179
+[27-Jun-2017 10:42:08 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1179
+[27-Jun-2017 10:42:10 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1179
+[27-Jun-2017 10:46:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'date' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:46:37 America/Chicago] PHP Parse error:  syntax error, unexpected 'date' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:51:33 America/Chicago] PHP Parse error:  syntax error, unexpected 'date' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:51:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'date' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:51:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'date' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:51:59 America/Chicago] PHP Parse error:  syntax error, unexpected 'date' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:52:00 America/Chicago] PHP Parse error:  syntax error, unexpected 'date' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:53:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'date' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:54:36 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:54:37 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:54:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:54:52 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:54:53 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:55:04 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:55:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:55:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:55:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:55:55 America/Chicago] PHP Parse error:  syntax error, unexpected ''.' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1196
+[27-Jun-2017 10:55:56 America/Chicago] PHP Parse error:  syntax error, unexpected ''.' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1196
+[27-Jun-2017 10:56:24 America/Chicago] PHP Parse error:  syntax error, unexpected '.112' (T_DNUMBER), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1194
+[27-Jun-2017 10:59:28 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1203
+[27-Jun-2017 11:00:14 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1205
+[27-Jun-2017 11:00:18 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1205
+[27-Jun-2017 11:11:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1207
+[27-Jun-2017 11:27:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'ORDER' (T_STRING) in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1101
+[27-Jun-2017 11:36:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1147
+[27-Jun-2017 11:41:52 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1148
+[27-Jun-2017 11:42:02 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1148
+[27-Jun-2017 11:42:04 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1148
+[27-Jun-2017 11:42:24 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1148
+[27-Jun-2017 11:42:26 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1148
+[27-Jun-2017 11:43:11 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1148
+[27-Jun-2017 11:43:12 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1148
+[27-Jun-2017 11:52:20 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1126
+[27-Jun-2017 11:53:15 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1126
+[27-Jun-2017 12:19:50 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1135
+[27-Jun-2017 12:20:52 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1135
+[27-Jun-2017 12:21:13 America/Chicago] PHP Parse error:  syntax error, unexpected '$line_stamp' (T_VARIABLE), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1135
+[27-Jun-2017 12:21:14 America/Chicago] PHP Parse error:  syntax error, unexpected '$line_stamp' (T_VARIABLE), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1135
+[27-Jun-2017 12:21:58 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1129
+[27-Jun-2017 12:22:38 America/Chicago] PHP Parse error:  syntax error, unexpected '' .             ' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1132
+[27-Jun-2017 12:22:39 America/Chicago] PHP Parse error:  syntax error, unexpected '' .             ' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1132
+[27-Jun-2017 12:34:21 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1133
+[27-Jun-2017 12:34:28 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1133
+[27-Jun-2017 12:34:30 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/activity_stream.php on line 1133
+[27-Jun-2017 16:42:48 America/Chicago] PHP Parse error:  syntax error, unexpected '$delivery' (T_VARIABLE) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 748
+[27-Jun-2017 17:07:56 America/Chicago] PHP Parse error:  syntax error, unexpected '$remarks' (T_VARIABLE) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 746
+[27-Jun-2017 17:08:21 America/Chicago] PHP Parse error:  syntax error, unexpected '$remarks' (T_VARIABLE) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 746
+[03-Jul-2017 02:51:05 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[03-Jul-2017 02:53:38 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[03-Jul-2017 02:56:52 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[03-Jul-2017 02:57:10 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[03-Jul-2017 04:04:11 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[03-Jul-2017 05:20:53 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 785
+[03-Jul-2017 05:26:59 America/Chicago] PHP Parse error:  syntax error, unexpected 'Add' (T_STRING) in /home/myworklet/public_html/project/inquiry/task_inquiry.php on line 934

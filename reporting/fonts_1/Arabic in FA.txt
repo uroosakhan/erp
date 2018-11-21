@@ -1,0 +1,11 @@
+Arabic in FA
+============
+In linux, install the Arabic locale:
+	locale-gen ar_EG.utf8
+Install ar_EG Arabic Language within FA
+Edit the encoding in lang/installed_languages.inc to be 'utf-8' for ar_EG language
+Upload the Arabic fonts ? (aealarabiya and aefurat) to the reporting/fonts folder 
+Edit lines 158 in reporting/includes/class.pdf.inc to be:
+	case "ar_EG" : 	$fontname = "aealarabiya"; 	break;
+When logged in, make your language preference for the UI to be Arabic.
+Now all reports will be in Arabic.
