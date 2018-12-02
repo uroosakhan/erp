@@ -1,6 +1,6 @@
 <?php
 session_start();
-$url_array = explode('?', 'http://' . $_SERVER ['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
+$url_array = explode('?', 'http://' . $_SERVER ['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
 $url = $url_array[0];
 
 require_once 'google-api-php-client/src/Google_Client.php';
@@ -17,26 +17,29 @@ if (isset($_GET['code'])) {
 } elseif (!isset($_SESSION['accessToken'])) {
     $client->authenticate();
 }
-
+//header('Location: ../admin/attachments.php?debtor_no='.$debtor_id, true);
 $client->setAccessToken($_SESSION['accessToken']);
 $service = new Google_DriveService($client);
 function get_types_names_new($selected_id)
 {
-    $sql = "SELECT types_name FROM " . TB_PREF . "sms_type_template WHERE id = " . db_escape($selected_id);;
+//    $sql = "SELECT types_name FROM " . TB_PREF . "sms_type_template WHERE id = " . db_escape($selected_id);;
+    $sql = "SELECT  debtor_ref FROM ".TB_PREF."debtors_master WHERE debtor_no=" . db_escape($selected_id);;
     $result = db_query($sql, "could not get sms template");
     $row = db_fetch_row($result);
     return $row[0];
 }
-   //----UROOSA KHAN-----//
+
+
+//----UROOSA KHAN-----//
 
 if (isset($_FILES["fileToUpload"]["name"])) {
 
-
+    //header('Location: ../admin/attachments.php', true);
     if ($_FILES['fileToUpload']['size'] != 0) {
 
         global $path_to_root, $systypes_array;
         $arr = explode(".", $_FILES["fileToUpload"]["name"], 2);
-        $first =$systypes_array[$_POST["filterType"]]; //$_POST["filterType"];
+        $first =[$_POST["filterType"]]; //$_POST["filterType"];
 
         $parentId = null;
         $files = $service->files->listFiles();
@@ -97,7 +100,7 @@ if (isset($_FILES["fileToUpload"]["name"])) {
                 'mimeType' => $mime_type
             )
         );
- //to_get_file_into_tables
+        //to_get_file_into_tables
 
         $files = $service->files->listFiles();
         $found = false;
@@ -116,7 +119,7 @@ if (isset($_FILES["fileToUpload"]["name"])) {
         add_attachment($_POST['filterType'], $_POST['trans_no'], $_POST['description'],
             $_FILES['fileToUpload']['name'], $fileid, $size, $ext);
         display_notification(_("Attachment has been inserted."));
-        refresh('attachments.php');
+        //refresh('attachments.php');
 
         finfo_close($finfo);
         header('location:' . $url);
